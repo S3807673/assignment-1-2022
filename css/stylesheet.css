@@ -9,11 +9,11 @@ a {
      background: steelblue;
      position: relative;
      top: -600px;
-     animation: mymove 20s infinite;
+     animation: mymove 15s infinite;
 }
 @keyframes mymove {
   from {background-color: steelblue;}
   to {background-color: lightblue;}
-  from {left: 10px}
-  to {left: 2000px}
+  from {left: -300px}
+  to {left: 2800px}
 }
